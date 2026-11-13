@@ -22,5 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Android_qz"
+// 项目名需包含本人姓名拼音：白芯源 -> BaiXinYuan
+rootProject.name = "BaiXinYuan_Android_qz"
 include(":app")

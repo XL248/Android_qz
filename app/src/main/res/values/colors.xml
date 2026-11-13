@@ -2,4 +2,23 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- 学号 2024110502 尾号为 2 → 字体使用绿色 -->
+    <color name="page_background">#F7FBF7</color>
+    <color name="card_background">#FFFFFFFF</color>
+    <color name="card_stroke">#C8E6C9</color>
+
+    <color name="text_primary">#1B5E20</color>
+    <color name="text_secondary">#2E7D32</color>
+    <color name="text_price">#2E7D32</color>
+    <color name="text_hint">#66BB6A</color>
+
+    <color name="toolbar_background">#FFFFFF</color>
+    <color name="divider">#DCEDC8</color>
+
+    <!-- 分类 / 排序标签：选中浅绿底深绿字，未选中白底描边 -->
+    <color name="chip_selected_background">#C8E6C9</color>
+    <color name="chip_selected_text">#1B5E20</color>
+    <color name="chip_normal_background">#FFFFFF</color>
+    <color name="chip_normal_text">#2E7D32</color>
 </resources>

@@ -1,3 +1,37 @@
 <resources>
-    <string name="app_name">Android_qz</string>
+    <string name="app_name">书籍信息管理</string>
+
+    <!-- 第 1 个 Activity 的标题：姓名 + 学号 -->
+    <string name="screen_title">白芯源 2024110502</string>
+    <string name="list_subtitle">共 %1$d 本书 · %2$s</string>
+    <string name="list_hint">上下滚动浏览，点击任意书籍查看完整信息</string>
+
+    <!-- 排序标签 -->
+    <string name="sort_title">书名首字母</string>
+    <string name="sort_price_ascending">价格从低到高</string>
+    <string name="sort_price_descending">价格从高到低</string>
+    <string name="sort_label_title">按书名首字母排序</string>
+    <string name="sort_label_price_ascending">按价格从低到高排序</string>
+    <string name="sort_label_price_descending">按价格从高到低排序</string>
+
+    <!-- 分类标签 -->
+    <string name="category_all">全部</string>
+
+    <!-- 书籍列表项 -->
+    <string name="price_format">￥%1$s</string>
+    <string name="book_meta_format">%1$s · %2$s · %3$s</string>
+
+    <!-- 第 2 个 Activity -->
+    <string name="detail_title">书籍详情</string>
+    <string name="label_book_title">书名</string>
+    <string name="label_author">作者</string>
+    <string name="label_publisher">出版社</string>
+    <string name="label_price">价格</string>
+    <string name="label_isbn">ISBN</string>
+    <string name="label_year">出版年份</string>
+    <string name="label_category">分类</string>
+    <string name="label_summary">内容简介</string>
+    <string name="year_format">%1$d 年</string>
+    <string name="btn_back">返回列表</string>
+    <string name="back">返回</string>
 </resources>
