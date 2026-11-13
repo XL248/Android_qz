@@ -1,10 +1,4 @@
-# BaiXinYuan_Android_qz · 书籍信息管理
 
-上机测试项目：两个 Activity 完成书籍列表与详情查看，支持排序切换与分类筛选。
-
-- 姓名 / 学号：白芯源 / 2024110502
-- 学号尾号 2 → 文字颜色为**绿色**（规则：0、1 红；2、3 绿；4、5 蓝；6、7 棕；8、9 紫）
-- 包名：`cn.edu.sicnu.cs.stu.baixinyuan.android_qz`
 
 ## 一、题目要求与实现位置
 
@@ -17,7 +11,6 @@
 | 采用列表显示 | `RecyclerView` + `BookAdapter`（`ListAdapter` + `DiffUtil`）+ `item_book.xml` |
 | 单击书籍启动第 2 个 Activity | 点击回调 → `Intent.putExtra(EXTRA_BOOK, book)` → `startActivity` |
 | 第 2 个 Activity 显示完整信息 | `DetailActivity` + `activity_detail.xml`（8 个字段） |
-| 标题＝姓名+学号 | `screen_title` = 白芯源 2024110502 |
 | 文字颜色按尾号 | `colors.xml` 全套绿色（`text_primary #1B5E20` 等） |
 | 布局合理、无错误警告 | `clean assembleDebug` 成功无告警；单元测试 6 个全过 |
 
